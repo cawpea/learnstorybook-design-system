@@ -45,10 +45,10 @@ Small.args = {
 
 export const WithInteractions = (args) => <Button {...args} />;
 WithInteractions.args = {
-  appearance: "primary",
+  primary: true,
+  label: "Button",
   href: "https://storybook.js.org",
   ButtonWrapper: StoryLinkWrapper,
-  children: "Button",
 };
 
 WithInteractions.play = async ({ canvasElement }) => {
